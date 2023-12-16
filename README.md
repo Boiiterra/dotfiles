@@ -24,7 +24,7 @@ This list is not full.
 
 ## Useful links
 
-[Cool twitch guy's config (nvim)]("He is cool guy!" https://github.com/ThePrimeagen/init.lua/) \
-[How to start in nvim?]("<3" https://github.com/nvim-lua/kickstart.nvim) \
-[Really good config. (My opinion)]("LARBS" https://github.com/LukeSmithxyz/voidrice/)
+[Cool twitch guy's config (nvim)](https://github.com/ThePrimeagen/init.lua/ "He is cool guy!") \
+[How to start in nvim?](https://github.com/nvim-lua/kickstart.nvim "<3") \
+[Really good config. (My opinion)](https://github.com/LukeSmithxyz/voidrice/ "LARBS")
 
