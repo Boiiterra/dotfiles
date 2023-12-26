@@ -1,0 +1,14 @@
+export XDG_CONFIG_HOME="${HOME}/.config"
+# export ZDOTDIR="${XDG_CONFIG_HOME}/zsh"
+
+export EDITOR=nvim
+export TERMINAL=alacritty
+
+export MOZ_ENABLE_WAYLAND=1
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=river
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+if [[ -z $WAYLAND_DISPLAY && $(tty) = "/dev/tty1" ]]; then
+	river
+fi
