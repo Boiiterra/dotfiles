@@ -1,0 +1,30 @@
+# Colors/Colours
+eval "$(dircolors -b)"
+alias "ls=ls -F --color=auto"
+alias "grep=grep --color=auto"
+
+# Easy directories
+alias "d=cd $HOME/Documents"
+alias "D=cd $HOME/Downloads"
+alias "p=cd $HOME/pics"  # Maybe rename this dir
+alias "m=cd $HOME/Music"
+alias "V=cd $HOME/Videos"
+
+# Git aliases
+alias "g=git"
+alias "gaa=git add ."
+alias "ga=git add"
+alias "gc=git clone"
+alias "gC=git commit"
+alias "gcm=git commit -m"
+alias "gp=git push"
+alias "gP=git pull"
+alias "gs=git status"
+alias "gd=git diff"
+
+# Application aliases
+alias "fm=pcmanfm"
+alias "vim=nvim"
+alias "v=nvim"
+alias "v.=nvim ."
+alias "e=$EDITOR"
