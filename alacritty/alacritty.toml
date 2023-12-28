@@ -1,0 +1,75 @@
+[colors.bright]
+black = "0x4F5F68"
+blue = "0x668FEF"
+cyan = "0x8AE8FF"
+green = "0x66BF6a"
+magenta = "0xAF9FE1"
+red = "0xD43737"
+white = "0xEDE8D9"
+yellow = "0xF2DA02"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "0x421043"
+
+[colors.normal]
+black = "0x08100F"
+blue = "0x576FEF"
+cyan = "0x7BC7DF"
+green = "0x34A03C"
+magenta = "0xAA89E9"
+red = "0xC54245"
+white = "0xD9D1D2"
+yellow = "0xF0BF06"
+
+[colors.primary]
+background = "0x0F141F"
+foreground = "0xC8D0CA"
+
+[colors.selection]
+background = "0x1D4D67"
+foreground = "0xC9D7BF"
+
+[cursor]
+blink_interval = 500
+blink_timeout = 10
+thickness = 0.15
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "On"
+
+[font]
+size = 12.0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "R"
+mods = "Shift|Alt"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "J"
+mods = "Shift|Alt"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "K"
+mods = "Shift|Alt"
+
+[window]
+opacity = 0.85
+
+[window.padding]
+x = 6
+y = 8
